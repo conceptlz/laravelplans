@@ -1,7 +1,7 @@
 <?php
 
-use Czechbox\LaravelPlans\Models\Plan;
-use Czechbox\LaravelPlans\Models\PlanFeature;
+use Conceptlz\LaravelPlans\Models\Plan;
+use Conceptlz\LaravelPlans\Models\PlanFeature;
 
 $factory->define(PlanFeature::class, function (Faker\Generator $faker) {
     return [

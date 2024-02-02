@@ -24,7 +24,7 @@ Publish package config file and migrations with the following command:
 
 .. code-block:: bash
 
-    php artisan vendor:publish --provider="Czechbox\LaravelPlans\LaravelPlansServiceProvider"
+    php artisan vendor:publish --provider="Conceptlz\LaravelPlans\LaravelPlansServiceProvider"
 
 
 Depending on your use case, you may want to adjust the published migrations. If your User model id is a 'uuid' rather than 'increments', modify the ``plan_subscriptions`` schema in  ``XXXX_XX-XX_XXXXXX_create_laravelplans_tables.php`` file as below.
@@ -47,7 +47,7 @@ Then run migrations:
 Traits and Contracts
 --------------------
 
-Add ``Czechbox\LaravelPlans\Traits\PlanSubscriber`` trait and ``Czechbox\LaravelPlans\Contracts\PlanSubscriberInterface`` contract to your ``User`` model.
+Add ``Conceptlz\LaravelPlans\Traits\PlanSubscriber`` trait and ``Conceptlz\LaravelPlans\Contracts\PlanSubscriberInterface`` contract to your ``User`` model.
 
 See the following example:
 
@@ -56,8 +56,8 @@ See the following example:
     namespace App\Models;
 
     use Illuminate\Foundation\Auth\User as Authenticatable;
-    use Czechbox\LaravelPlans\Contracts\PlanSubscriberInterface;
-    use Czechbox\LaravelPlans\Traits\PlanSubscriber;
+    use Conceptlz\LaravelPlans\Contracts\PlanSubscriberInterface;
+    use Conceptlz\LaravelPlans\Traits\PlanSubscriber;
 
     class User extends Authenticatable implements PlanSubscriberInterface
     {

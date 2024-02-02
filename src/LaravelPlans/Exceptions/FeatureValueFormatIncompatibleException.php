@@ -1,6 +1,6 @@
 <?php
 
-namespace Czechbox\LaravelPlans\Exceptions;
+namespace Conceptlz\LaravelPlans\Exceptions;
 
 class FeatureValueFormatIncompatibleException extends \Exception
 {

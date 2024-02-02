@@ -1,9 +1,9 @@
 <?php
 
-namespace Czechbox\LaravelPlans;
+namespace Conceptlz\LaravelPlans;
 
 use Illuminate\Database\Eloquent\Model;
-use Czechbox\LaravelPlans\Contracts\SubscriptionResolverInterface;
+use Conceptlz\LaravelPlans\Contracts\SubscriptionResolverInterface;
 
 class SubscriptionResolver implements SubscriptionResolverInterface
 {

@@ -2,22 +2,22 @@
 
 // @codingStandardsIgnoreFile
 
-namespace Czechbox\LaravelPlans\Tests\Integration\Models;
+namespace Conceptlz\LaravelPlans\Tests\Integration\Models;
 
 use Config;
 use Carbon\Carbon;
-use Czechbox\LaravelPlans\Period;
+use Conceptlz\LaravelPlans\Period;
 use Illuminate\Support\Facades\Event;
-use Czechbox\LaravelPlans\Models\Plan;
-use Czechbox\LaravelPlans\Tests\TestCase;
-use Czechbox\LaravelPlans\Tests\Models\User;
-use Czechbox\LaravelPlans\Models\PlanFeature;
-use Czechbox\LaravelPlans\Models\PlanSubscription;
-use Czechbox\LaravelPlans\Events\SubscriptionCreated;
-use Czechbox\LaravelPlans\Events\SubscriptionRenewed;
-use Czechbox\LaravelPlans\Events\SubscriptionCanceled;
-use Czechbox\LaravelPlans\Models\PlanSubscriptionUsage;
-use Czechbox\LaravelPlans\Events\SubscriptionPlanChanged;
+use Conceptlz\LaravelPlans\Models\Plan;
+use Conceptlz\LaravelPlans\Tests\TestCase;
+use Conceptlz\LaravelPlans\Tests\Models\User;
+use Conceptlz\LaravelPlans\Models\PlanFeature;
+use Conceptlz\LaravelPlans\Models\PlanSubscription;
+use Conceptlz\LaravelPlans\Events\SubscriptionCreated;
+use Conceptlz\LaravelPlans\Events\SubscriptionRenewed;
+use Conceptlz\LaravelPlans\Events\SubscriptionCanceled;
+use Conceptlz\LaravelPlans\Models\PlanSubscriptionUsage;
+use Conceptlz\LaravelPlans\Events\SubscriptionPlanChanged;
 
 class PlanSubscriptionTest extends TestCase
 {

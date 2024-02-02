@@ -1,8 +1,8 @@
 <?php
 
-namespace Czechbox\LaravelPlans;
+namespace Conceptlz\LaravelPlans;
 
-use Czechbox\LaravelPlans\Feature;
+use Conceptlz\LaravelPlans\Feature;
 
 class SubscriptionAbility
 {

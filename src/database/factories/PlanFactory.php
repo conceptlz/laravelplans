@@ -1,6 +1,6 @@
 <?php
 
-use Czechbox\LaravelPlans\Models\Plan;
+use Conceptlz\LaravelPlans\Models\Plan;
 
 $factory->define(Plan::class, function (Faker\Generator $faker) {
     return [

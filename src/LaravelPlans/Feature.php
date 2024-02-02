@@ -1,10 +1,10 @@
 <?php
 
-namespace Czechbox\LaravelPlans;
+namespace Conceptlz\LaravelPlans;
 
 use Carbon\Carbon;
-use Czechbox\LaravelPlans\Period;
-use Czechbox\LaravelPlans\Exceptions\InvalidPlanFeatureException;
+use Conceptlz\LaravelPlans\Period;
+use Conceptlz\LaravelPlans\Exceptions\InvalidPlanFeatureException;
 
 class Feature
 {
@@ -34,7 +34,7 @@ class Feature
      *
      * @param string $feature_code
      * @return void
-     *@throws  \Czechbox\LaravelPlans\Exceptions\InvalidPlanFeatureException
+     *@throws  \Conceptlz\LaravelPlans\Exceptions\InvalidPlanFeatureException
      */
     public function __construct($feature_code)
     {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Czechbox\LaravelPlans\Events;
+namespace Conceptlz\LaravelPlans\Events;
 
-use Czechbox\LaravelPlans\Models\PlanSubscription;
+use Conceptlz\LaravelPlans\Models\PlanSubscription;
 use Illuminate\Queue\SerializesModels;
 
 class SubscriptionPlanChanged
@@ -10,14 +10,14 @@ class SubscriptionPlanChanged
     use SerializesModels;
 
     /**
-     * @var \Czechbox\LaravelPlans\Models\PlanSubscription
+     * @var \Conceptlz\LaravelPlans\Models\PlanSubscription
      */
     public $subscription;
 
     /**
      * Create a new event instance.
      *
-     * @param  \Czechbox\LaravelPlans\Models\PlanSubscription  $subscription
+     * @param  \Conceptlz\LaravelPlans\Models\PlanSubscription  $subscription
      * @return void
      */
     public function __construct(PlanSubscription $subscription)

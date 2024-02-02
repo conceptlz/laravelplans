@@ -1,5 +1,5 @@
 {
-    "name": "czechbox/laravelplans",
+    "name": "conceptlz/laravelplans",
     "description": "SaaS style recurring plans for Laravel.",
     "keywords": ["plans", "laravel", "subscriptions", "memberships"],
     "license": "MIT",
@@ -7,8 +7,8 @@
     "require": {
         "php": ">=7.2",
         "nesbot/carbon": "~2.0",
-        "illuminate/support": "~6.0|~7.0|~8.0",
-        "illuminate/database": "~6.0|~7.0|~8.0"
+        "illuminate/support": "~6.0|~7.0|~8.0|~9.0|~10.0|~11.0",
+        "illuminate/database": "~6.0|~7.0|~8.0|~9.0|~10.0|~11.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Czechbox\\LaravelPlans\\": "src/LaravelPlans/"
+            "Conceptlz\\LaravelPlans\\": "src/LaravelPlans/"
         }
     },
     "autoload-dev": {
@@ -26,13 +26,13 @@
             "tests/TestCase.php"
         ],
         "psr-4": {
-            "Czechbox\\LaravelPlans\\Tests\\": "tests/"
+            "Conceptlz\\LaravelPlans\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Czechbox\\LaravelPlans\\LaravelPlansServiceProvider"
+                "Conceptlz\\LaravelPlans\\LaravelPlansServiceProvider"
             ]
         }
     },

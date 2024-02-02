@@ -1,10 +1,10 @@
 <?php
 
-namespace Czechbox\LaravelPlans\Unit;
+namespace Conceptlz\LaravelPlans\Unit;
 
-use Czechbox\LaravelPlans\Feature;
-use Czechbox\LaravelPlans\Tests\TestCase;
-use Czechbox\LaravelPlans\Exceptions\InvalidPlanFeatureException;
+use Conceptlz\LaravelPlans\Feature;
+use Conceptlz\LaravelPlans\Tests\TestCase;
+use Conceptlz\LaravelPlans\Exceptions\InvalidPlanFeatureException;
 
 class FeatureTest extends TestCase
 {

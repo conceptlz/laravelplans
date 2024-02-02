@@ -1,11 +1,11 @@
 <?php
 
-namespace Czechbox\LaravelPlans\Tests\Integration\Models;
+namespace Conceptlz\LaravelPlans\Tests\Integration\Models;
 
-use Czechbox\LaravelPlans\Models\Plan;
-use Czechbox\LaravelPlans\Tests\TestCase;
-use Czechbox\LaravelPlans\Tests\Models\User;
-use Czechbox\LaravelPlans\SubscriptionBuilder;
+use Conceptlz\LaravelPlans\Models\Plan;
+use Conceptlz\LaravelPlans\Tests\TestCase;
+use Conceptlz\LaravelPlans\Tests\Models\User;
+use Conceptlz\LaravelPlans\SubscriptionBuilder;
 
 class SubscriptionBuilderTest extends TestCase
 {
